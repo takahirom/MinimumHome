@@ -4,10 +4,21 @@
     android:layout_height="match_parent"
     tools:context="com.kogitune.minimumhome.HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal">
 
+        <Button
+            android:id="@+id/button_reset_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reset home" />
+
+        <Button
+            android:id="@+id/button_go_to_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="goto launcher" />
+    </LinearLayout>
 </FrameLayout>
